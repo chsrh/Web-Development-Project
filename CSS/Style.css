@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*____NAVBAR____*/
+.nav {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.brand {
+    padding-top: 10px;
+}
+
+
+.brand-img {
+    width: 50px;
+}
+
+
+hr {
+    width: 80%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 9px;
+}
+
+.nav ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(143, 141, 140);
+}
+
+.nav ul li :hover {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-button {
+    border: none;
+    background-color: black;
+    font-family: 'Lato', sans serif;
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(143, 141, 140);
+    margin-left: 15px;
+}
+
+.dropdown-button :active {
+    color: #00CCB1;
+    transition: 0.2s;
+}
+
+.dropdown-menu {
+    display: none;
+    font-family: 'Lato', sans serif;
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+
+.nav ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.nav ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.nav ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+
+
+
+/*____MAIN____*/
+.Title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans serif;
+    font-size: 300%;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.Subtitle {
+    margin-left: 15px;
+    font-style: italic;
+    color: #c20a07;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+    display: none;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: rgb(187, 185, 185);
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+/* Caption Info */
+.Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/*___Article___*/
+article {
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Lato', sans serif;
+    font-size: x_large;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #c20a07;
+
+}
+
+.a_text1 {
+    font-family: 'Lato', sans serif;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.a_text2 {
+    font-family: 'Lato', sans serif;
+    font-size: medium;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.Pic1 {
+    height: 800px;
+
+
+}
+
+/*____FOOTER____*/
+.footer_title {
+    padding-left: 200px;
+    font-family: 'Lato', sans serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.f_title1 {
+    font-weight: 600;
+
+}
+
+.f_title2 {
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.Box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Lato', sans serif;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.f_text {
+    display: flex;
+    justify-self: flex-start;
+    padding-left: 50px;
+    padding-right: 480px;
+    text-align: justify;
+}
+
+.Logo1 {
+    height: 90px;
+    padding-left: 200px;
+}
+
+.Media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.FB {
+    margin-right: 30px;
+}
+
+.IG {
+    margin-right: 30px;
+}
+
+.IN {
+    padding-right: 200px;
+}
+
+
+
+
+/*____Pages___*/
+
+.Des_Title1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Lato', sans serif;
+    color: #333131;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.P1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.P1I1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+
+.div_des {
+    padding-top: 65px;
+    padding-left: 20px;
+}
+
+.Des_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans serif;
+    color: #c20a07;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.div_des1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+
+.Description {
+    font-family: 'Lato', sans serif;
+    color: #333131;
+    font-weight: 350;
+}
+
+.Description1 {
+    font-family: 'Lato', sans serif;
+    color: #c20a07;
+    font-weight: 400;
+}
+
+
+.P1I {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.PTxtF {
+    font-family: 'Lato', sans serif;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.PTxt1 {
+    font-family: 'Lato', sans serif;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*___Contact___*/
+.submit {
+    margin-top: 50px;
+    background-color: #c20a07;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-family: 'Lato', sans serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    border-color: #c20a07;
+    border-width: 1px;
+    border-style:groove;
+    margin-left: 250px;
+}
+
+.CI {
+    width: 100%;
+    filter: grayscale(0.25);
+    filter: saturate(1.6);
+
+}
+
+.CT {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    color: #fff;
+    font-family: 'Lato', sans serif;
+    font-weight: 700;
+    padding-left: 180px;
+}
+
+.CPart {
+    display: flex;
+    flex-direction: column;
+}
+
+.CP {
+    font-family: 'Lato', sans serif;
+    
+    text-align: justify;
+}
+
+.CForm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans serif;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+.label{
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    padding-top: 20px;
+}
+
+.label_Q{
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    padding-top: 35px;
+}
+.input{
+    width: 400px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-color: #a09d9d;
+    border-width: 1px;
+    border-style:groove;
+}
+
+.input_sub{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #a09d9d;
+    border-width: 1px;
+    border-style:groove;
+}
+
+
